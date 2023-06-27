@@ -1,6 +1,6 @@
-package org.example;
+package org.example.Main_Classes;
 
-public abstract class A_top_class_Unit {
+public abstract class Unit {
     public int health; //здоровье в поинтах
     public int attac; //атака в поинтах
     public float defend; //защита в поинтах
@@ -10,7 +10,7 @@ public abstract class A_top_class_Unit {
     public int mana; // выносливость магических существ
     public float precision; // меткость для всех
 
-    public A_top_class_Unit(int health, int attac, float defend, int speed, int point_activities, int stamina, int mana, float precision) {
+    public Unit(int health, int attac, float defend, int speed, int point_activities, int stamina, int mana, float precision) {
         this.health = health;
         this.attac = attac;
         this.defend = defend;
